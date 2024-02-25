@@ -1,0 +1,29 @@
+<html>
+<head>
+<h1>Today DATE</h1>
+<button type="button" onclick="document.getElementById('demo').innerHTML=Date()">
+Click me to show date</button>
+<p id= "demo"></p>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML='new content'">
+click me to see magic</button>
+<p id ="demo">This is my old content </p>
+
+<button type="button" onclick="document.getElementById('bulb').src='on.gif'">Turn on</button>
+<img src="off.gif" id="bulb"/>
+<button type="button" onclick="document.getElementById('bulb').src='off.gif'">Turn off</button>
+
+
+/*css with java scripts*/
+</br>
+<button type="button" onclick="document.getElementById('demo1').setAttribute('style','font_size:20px;color:red;');">
+Click me </button>
+<p id ="demo1">This is my new content </p>
+
+/*Hide & show contents using java scripts*/
+<button type="button" onclick="document.getElementById('demo55').style.display='none'">Hide me </button>
+<p id "demo55" style: display:none>This is my next content</p> 
+<button type="button" onclick="document.getElementById('demo55').style.display='block'">Show me </button>
+
+</head>
+</html>
